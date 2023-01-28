@@ -30,9 +30,9 @@ const checkwinner = () => {
             document.querySelector('.line').style.width = "20vw";
             document.querySelector('.line').style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`;
             
-            setTimeout(() => {
-                reset.click();
-            },2000);
+            // setTimeout(() => {
+            //     reset.click();
+            // },2000);
         }
     })
 }
