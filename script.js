@@ -32,7 +32,7 @@ const checkwinner = () => {
             
             setTimeout(() => {
                 reset.click();
-            },2000);
+            },3000);
         }
     })
 }
